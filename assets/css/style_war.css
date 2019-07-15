@@ -1,99 +1,103 @@
- /* Backgroud Image */
- 
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
 
- /* Backgroud Image */
+* {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1659), auto !important;
+}
 
- #page2 {
-     z-index: 1;
-     width: 100%;
-     height: 721px;
-     background-repeat: no-repeat;
-     margin: 0 0 0 0px;
- }
+#page2 {
 
-  
+    position: absolute;
+    z-index: -1000;
+    width: 1519px;
+    height: 804px;
+}
 
- #caracters {
-float: left;
-z-index: 1;
-position: absolute;
-margin: -617px 0 0 567px;
-}
+img {
+    height: 100px;
+    width: 150px;
 
+}
 
- #car1 {
-width: 59px;
-}
+.select {
+    font-size: 200%;
+    color: yellow;
+    margin-left: 599px;
+}
 
- #car2 {
-width: 122px;
-}
+#logo {
+    font-size: 300%;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: yellow;
+    margin: 45px 0 0 1232px;
+}
 
- #car3 {
-width: 80px;
-}
+.character {
+    display: inline-block;
+    /* background-color: white; */
+    margin-left: 168px;
+}
 
- #car4 {
-width: 74px;
-}
+.character-image {
+    padding-right: 16px;
+    padding-left: 18px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: -18px;
+}
 
- 
-  
-  
- #logo {
-     color: rgb(224, 212, 32);
-     font-family: serif;
-     font-size: 80px;
-     z-index: 20;
-     position: absolute;
-     margin: -716px 0 0 441px;
- }
-
- #bsound {
-     position: absolute;
-     z-index: 3;
-     display: none;
- }
-
-
- @media screen and (max-width: 1440px) {
+.character-health {
+    text-align: center;
+    color: yellow;
+    font-size: x-large;
+    font-family: fantasy;
+}
 
 
-     #page1 {
 
-         width: 100%;
-         height: 821px;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
+@media screen and (max-width: 1440px) {
 
- }
 
- @media screen and (max-width: 768px) {
+    #page1 {
 
-     #page1 {
+        width: 100%;
+        height: 821px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-         width: 100%;
-         height: 233px;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
+}
 
- }
+@media screen and (max-width: 768px) {
 
- @media screen and (max-width: 640px) {
+    #page1 {
 
-     #page1 {
+        width: 100%;
+        height: 233px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
-         width: 100%;
-         height: 233px;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
+}
 
-     body {
+@media screen and (max-width: 640px) {
 
-         background-color: blanchedalmond;
+    #page1 {
 
-     }
- }
+        width: 100%;
+        height: 233px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body {
+
+        background-color: blanchedalmond;
+
+    }
+}
