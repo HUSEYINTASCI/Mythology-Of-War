@@ -58,7 +58,35 @@ img {
     font-family: fantasy;
 }
 
+.enemy {
+    margin-right: -152px;
+}
 
+
+#selected-god {
+    width: 190px;
+    height: 160px;
+    margin-left: 473px;
+}
+
+#fightbtn {
+
+    margin: 9px -16px 0 655px;
+}
+
+#Enemy {
+    width: 190px;
+    height: 160px;
+}
+
+#Enemy-health {
+    text-align: center;
+}
+
+.bsound {
+
+    display: none;
+}
 
 @media screen and (max-width: 1440px) {
 

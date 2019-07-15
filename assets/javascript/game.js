@@ -2,6 +2,7 @@ var gods, greset
 function Start () {
   gods = resetgods();
   greset = resetgame();
+  godrender();
 }
 
 function resetgods () {
@@ -35,9 +36,13 @@ function resetgods () {
 }
 
 function resetgame () {
+  return {
+    selectedCharacter: null,
+    selectedEnemy: null,
+    enemycound: 0,
+    attackcound: 0
+  }
 }
-  
-
 
  
  
@@ -46,4 +51,23 @@ function godsdiv (character, key) {
   var charName = $("<div class='character-name'>").text(character.name)
   var charImage = $("<img alt='image' class='character-image'>").attr('src', character.imageUrl)
   var charHealth = $("<div class='character-health'>").text(character.health)
+  charDiv.append(charName).append(charImage).append(charHealth)
+  return charDiv
 }
+
+ 
+function godrender () {
+  console.log('rendering gods')
+
+  var keys = Object.keys(gods)
+  for (var i = 0; i < keys.length; i++) {
+     
+    var characterKey = keys[i]
+    var character = gods[characterKey]
+     
+    var charDiv = godsdiv(character, characterKey)
+    $('#gods').append(charDiv)
+  }
+}
+
+function renderenemy (selectedCharacterKey) {}

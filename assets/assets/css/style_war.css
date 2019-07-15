@@ -1,99 +1,0 @@
- /* Backgroud Image */
- 
-
- /* Backgroud Image */
-
- #page2 {
-     z-index: 1;
-     width: 100%;
-     height: 721px;
-     background-repeat: no-repeat;
-     margin: 0 0 0 0px;
- }
-
-  
-
- #caracters {
-float: left;
-z-index: 1;
-position: absolute;
-margin: -617px 0 0 567px;
-}
-
-
- #car1 {
-width: 59px;
-}
-
- #car2 {
-width: 122px;
-}
-
- #car3 {
-width: 80px;
-}
-
- #car4 {
-width: 74px;
-}
-
- 
-  
-  
- #logo {
-     color: rgb(224, 212, 32);
-     font-family: serif;
-     font-size: 80px;
-     z-index: 20;
-     position: absolute;
-     margin: -716px 0 0 441px;
- }
-
- #bsound {
-     position: absolute;
-     z-index: 3;
-     display: none;
- }
-
-
- @media screen and (max-width: 1440px) {
-
-
-     #page1 {
-
-         width: 100%;
-         height: 821px;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
-
- }
-
- @media screen and (max-width: 768px) {
-
-     #page1 {
-
-         width: 100%;
-         height: 233px;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
-
- }
-
- @media screen and (max-width: 640px) {
-
-     #page1 {
-
-         width: 100%;
-         height: 233px;
-         background-repeat: no-repeat;
-         background-size: cover;
-     }
-
-     body {
-
-         background-color: blanchedalmond;
-
-     }
- }
