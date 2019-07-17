@@ -2,6 +2,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    position: fixed;
+
 }
 
 * {
@@ -12,8 +14,9 @@ body {
 
     position: absolute;
     z-index: -1000;
-    width: 1519px;
-    height: 804px;
+    width: 1550px;
+    height: 887px;
+    margin: -163px 0 0 0px;
 }
 
 img {
@@ -22,61 +25,164 @@ img {
 
 }
 
+.character:hover {
+    animation: shake 0.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
 .select {
     font-size: 200%;
-    color: yellow;
-    margin-left: 599px;
+    color: rgb(230, 215, 18);
+    margin: 143px 0 0 349px;
+}
+
+#sel {
+    margin: 108px 0 0 601px;
+}
+
+#sel2 {
+    margin: 205px -10px 0 127px;
+    position: absolute;
+    display: none;
+}
+
+#sel3 {
+
+    margin: 115px 0 0 601px;
+}
+
+#sel4 {
+    margin: -63px 0 0 1069px;
+    position: absolute;
+    color: rgb(230, 215, 18);
+    font-size: xx-large;
+    display: none;
+}
+
+#enemy_fight{
+
+    margin: -26px 0 0 315px;
+    display: none;
 }
 
 #logo {
     font-size: 300%;
+    font-family: initial;
     z-index: 1;
     position: absolute;
     text-align: center;
-    color: yellow;
-    margin: 45px 0 0 1232px;
+    color: rgb(230, 215, 18);
+    margin: 0 0 0 557px;
 }
 
 .character {
     display: inline-block;
-    /* background-color: white; */
     margin-left: 168px;
+    color: yellow;
+    text-align: center;
 }
 
 .character-image {
-    padding-right: 16px;
-    padding-left: 18px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-    margin-left: -18px;
+    width: 108px;
+    height: 147px;
 }
 
 .character-health {
     text-align: center;
-    color: yellow;
+    color: rgb(230, 215, 18);
     font-size: x-large;
     font-family: fantasy;
+    margin: 0px -216px 0 -215px;
 }
 
 .enemy {
-    margin-right: -152px;
+    margin: -13px -232px 0 218px;
 }
 
-
 #selected-god {
-    width: 190px;
-    height: 160px;
-    margin-left: 473px;
+    width: 198px;
+    height: 172px;
+    margin: 253px 0 0 0;
+    position: absolute;
+}
+
+#gods {
+
+    margin: 5px 0 0 65px;
+
 }
 
 #fightbtn {
-
-    margin: 9px -16px 0 655px;
+    margin: 106px 0 0 638px;
+    width: 203px;
+    border: solid rgb(230, 215, 18) 5px;
+    height: 57px;
+    font-size: xx-large;
+    color: rgb(230, 215, 18);
+    background-color: black;
+    font-family: auto;
 }
 
+
+#new-game {
+
+    margin: 378px 0 0 638px;
+    width: 205px;
+    height: 107px;
+    border: solid rgb(230, 215, 18) 5px;
+    background-color: black;
+    color: rgb(230, 215, 18);
+    font-size: xx-large;
+}
+
+
 #Enemy {
-    width: 190px;
-    height: 160px;
+    margin: -132px -10px -25px 839px;
 }
 
 #Enemy-health {

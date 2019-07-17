@@ -7,14 +7,34 @@
      cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1659), auto !important;
  }
 
+
+ #pegasus{
+    animation-timing-function: linear;
+    position: relative;
+    -webkit-animation: mymove 6s infinite;
+    animation: mymove 50s infinite;
+    z-index: 100;
+}
+
+@keyframes mymove {
+    from {
+        left: -300px;
+    }
+
+    to {
+        left: 1400px;
+    }
+}
+
+
  /* Backgroud Image */
 
  #page1 {
      z-index: 1;
      width: 100%;
      background-repeat: no-repeat;
-     margin: 0 0 0 -216;
-     -webkit-animation: zoomin 200s 2;
+     margin:-125px 0 0 0;
+     -webkit-animation: zoomin 300s 2;
  }
 
  @-webkit-keyframes zoomin {
@@ -28,12 +48,12 @@
  }
 
 
- #caracters {
+ #characters {
 
      float: left;
      z-index: 1;
      position: absolute;
-     margin: -737px 0 0 673px;
+     margin: -738px 0 0 585px;
  }
 
 
@@ -115,7 +135,7 @@
 
      z-index: 20;
      position: absolute;
-     margin: -852px 0 0 797px;
+     margin: -826px 0 0 681px;
  }
 
  #bsound {
