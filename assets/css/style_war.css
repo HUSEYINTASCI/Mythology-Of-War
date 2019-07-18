@@ -1,250 +1,228 @@
 body {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    position: fixed;
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: fixed;
 }
 
 * {
-    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1659), auto !important;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1659), auto !important;
 }
 
 /* Backgroud image */
 #page2 {
-
-    position: absolute;
-    z-index: -1000;
-    width: 1550px;
-    height: 887px;
-    margin: -163px 0 0 0px;
+  position: absolute;
+  z-index: -1000;
+  width: 1550px;
+  height: 887px;
+  margin: -163px 0 0 0px;
 }
 
 /* Logo */
 #logo {
-    font-size: 300%;
-    font-family: initial;
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    color: rgb(230, 215, 18);
-    margin: 0 0 0 557px;
+  font-size: 300%;
+  font-family: initial;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  color: rgb(230, 215, 18);
+  margin: 0 0 0 557px;
 }
 /* Gods */
 img {
-    height: 100px;
-    width: 150px;
-
+  height: 100px;
+  width: 150px;
 }
 /*  image Shake */
 
 .character:hover {
-    animation: shake 0.9s;
-    animation-iteration-count: infinite;
+  animation: shake 0.9s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-    0% {
-        transform: translate(1px, 1px) rotate(0deg);
-    }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
 
-    10% {
-        transform: translate(-1px, -2px) rotate(-1deg);
-    }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
 
-    20% {
-        transform: translate(-3px, 0px) rotate(1deg);
-    }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
 
-    30% {
-        transform: translate(3px, 2px) rotate(0deg);
-    }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
 
-    40% {
-        transform: translate(1px, -1px) rotate(1deg);
-    }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
 
-    50% {
-        transform: translate(-1px, 2px) rotate(-1deg);
-    }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
 
-    60% {
-        transform: translate(-3px, 1px) rotate(0deg);
-    }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
 
-    70% {
-        transform: translate(3px, 1px) rotate(-1deg);
-    }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
 
-    80% {
-        transform: translate(-1px, -1px) rotate(1deg);
-    }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
 
-    90% {
-        transform: translate(1px, 2px) rotate(0deg);
-    }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
 
-    100% {
-        transform: translate(1px, -2px) rotate(-1deg);
-    }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 /* Selected Charackters */
 .select {
-    font-size: 200%;
-    color: rgb(230, 215, 18);
-    margin: 143px 5px 8px 349px;
+  font-size: 200%;
+  color: rgb(230, 215, 18);
+  margin: 143px 5px 8px 349px;
 }
 
 #sel {
-    margin: 108px 0 0 601px;
+  margin: 108px 0 0 601px;
 }
 
 #sel2 {
-    margin: 205px -10px 0 127px;
-    position: absolute;
-    display: none;
+  margin: 205px -10px 0 127px;
+  position: absolute;
+  display: none;
 }
 
 #sel3 {
-    margin: 115px 0 0 601px;
+  margin: 115px 0 0 601px;
 }
 
-
-#sel4{
-
-    position: fixed;
-    bottom: 351px;
-    left: 1151px;
-    font-size: 200%;
-    color: rgb(230, 215, 18);
-    display: none;
-
+#sel4 {
+  position: fixed;
+  bottom: 351px;
+  left: 1151px;
+  font-size: 200%;
+  color: rgb(230, 215, 18);
+  display: none;
 }
 
 .character {
-    display: inline-block;
-    margin-left: 168px;
-    color: yellow;
-    text-align: center;
+  display: inline-block;
+  margin-left: 168px;
+  color: yellow;
+  text-align: center;
 }
 
 .character-image {
-    width: 108px;
-    height: 147px;
+  width: 108px;
+  height: 147px;
 }
 
 .character-health {
-    text-align: center;
-    color: rgb(230, 215, 18);
-    font-size: x-large;
-    font-family: fantasy;
-    margin: 0px -216px 0 -215px;
+  text-align: center;
+  color: rgb(230, 215, 18);
+  font-size: x-large;
+  font-family: fantasy;
+  margin: 0px -216px 0 -215px;
 }
 
 #selected-god {
-    width: 198px;
-    height: 172px;
-    margin: 253px 0 0 0;
-    position: absolute;
+  width: 198px;
+  height: 172px;
+  margin: 253px 0 0 0;
+  position: absolute;
 }
 
 #gods {
-    margin: 5px 0 0 65px;
+  margin: 5px 0 0 65px;
 }
 
 .enemy {
-    margin: -11px -201px 0 216px;
+  margin: -11px -201px 0 216px;
 }
 
-#enemy_fight{
-    margin: -26px 0 0 315px;
-    display: none;
+#enemy_fight {
+  margin: -26px 0 0 315px;
+  display: none;
 }
-
-
 
 #Enemy {
-    position: fixed;
-    bottom: 147px;
-    left: 923px;
+  position: fixed;
+  bottom: 147px;
+  left: 923px;
 }
 
 #Enemy-health {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* Backgroud Sounds */
 .bsound {
-
-    display: none;
+  display: none;
 }
 
 /* Fight Button */
 #fightbtn {
-    margin: 106px 0 0 638px;
-    width: 203px;
-    border: solid rgb(230, 215, 18) 5px;
-    height: 57px;
-    font-size: xx-large;
-    color: rgb(230, 215, 18);
-    background-color: black;
-    font-family: auto;
+  margin: 106px 0 0 638px;
+  width: 203px;
+  border: solid rgb(230, 215, 18) 5px;
+  height: 57px;
+  font-size: xx-large;
+  color: rgb(230, 215, 18);
+  background-color: black;
+  font-family: auto;
 }
 
 /* New Game Button */
 #new-game {
-
-    margin: 378px 0 0 638px;
-    width: 205px;
-    height: 107px;
-    border: solid rgb(230, 215, 18) 5px;
-    background-color: black;
-    color: rgb(230, 215, 18);
-    font-size: xx-large;
+  margin: 61px 0 0 638px;
+  width: 205px;
+  height: 107px;
+  border: solid rgb(230, 215, 18) 5px;
+  background-color: black;
+  color: rgb(230, 215, 18);
+  font-size: xx-large;
 }
 
 /* @media */
 
 @media screen and (max-width: 1440px) {
-
-
-    #page1 {
-
-        width: 100%;
-        height: 821px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
+  #page1 {
+    width: 100%;
+    height: 821px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
-    #page1 {
-
-        width: 100%;
-        height: 233px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
+  #page1 {
+    width: 100%;
+    height: 233px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 640px) {
+  #page1 {
+    width: 100%;
+    height: 233px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    #page1 {
-
-        width: 100%;
-        height: 233px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    body {
-
-        background-color: blanchedalmond;
-
-    }
+  body {
+    background-color: blanchedalmond;
+  }
 }

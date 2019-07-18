@@ -26,9 +26,8 @@ function Start() {
   gods = resetgods();
   greset = resetgame();
   godrender();
-  
 }
-
+$("#new-game").hide();
 // Gods Varibles
 function resetgods() {
   return {
@@ -146,7 +145,8 @@ $(document).ready(function() {
       $(".enemy").off("click.enemySelect");
     });
   }
-// Fight Values
+
+  // Fight Values
   function fight(fightcound) {
     greset.selectedEnemy.health -= greset.selectedCharacter.fight * fightcound;
   }
@@ -154,21 +154,26 @@ $(document).ready(function() {
   function defend() {
     greset.selectedCharacter.health -= greset.selectedEnemy.enemyfight;
   }
-// Check Win
+
+  // Check Win
   function win() {
     return greset.enemycound === 0;
   }
-// Check Charakter dead
+
+  // Check Charakter dead
   function dead(character) {
     return character.health <= 0;
   }
 
   function fightdone() {
     if (dead(greset.selectedCharacter)) {
-      $("#new-game").text("You Lose New Game");
+      alert("Your Character Dead. You Lose.");
+
+      $("#fightbtn").css("display", "none");
       $("#selected-god").empty();
+      $("#Enemy").empty();
+      $("#new-game").text("You Lose New Game");
       $("#new-game").show();
-      return true;
     } else if (dead(greset.selectedEnemy)) {
       greset.enemycound--;
       $("#Enemy").empty();
@@ -187,8 +192,7 @@ $(document).ready(function() {
     return false;
   }
 
-  
-// Fight Button
+  // Fight Button
   $("#fightbtn").on("click.fight", function() {
     greset.fightcound++;
 
@@ -203,7 +207,7 @@ $(document).ready(function() {
     }
   });
 
-// Empty divs
+  // Empty divs
   function emptyDivs() {
     $("#selected-god").empty();
     $("#Enemy").empty();
@@ -222,6 +226,6 @@ $(document).ready(function() {
     $("#sel4").css("display", "none");
     Start();
   });
-// Stert Game
+  // Stert Game
   Start();
 });
