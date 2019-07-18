@@ -78,7 +78,7 @@ img {
 .select {
     font-size: 200%;
     color: rgb(230, 215, 18);
-    margin: 143px 0 0 349px;
+    margin: 143px 5px 8px 349px;
 }
 
 #sel {
@@ -96,13 +96,18 @@ img {
     margin: 115px 0 0 601px;
 }
 
-#sel4 {
-    margin: -63px 0 0 1069px;
-    position: absolute;
+
+#sel4{
+
+    position: fixed;
+    bottom: 351px;
+    left: 1151px;
+    font-size: 200%;
     color: rgb(230, 215, 18);
-    font-size: xx-large;
-    display: none;
+
+
 }
+
 
 #enemy_fight{
 
@@ -141,7 +146,7 @@ img {
 }
 
 .enemy {
-    margin: -13px -232px 0 218px;
+    margin: -11px -201px 0 216px;
 }
 
 #selected-god {
@@ -182,7 +187,9 @@ img {
 
 
 #Enemy {
-    margin: -132px -10px -25px 839px;
+    position: fixed;
+    bottom: 147px;
+    left: 923px;
 }
 
 #Enemy-health {

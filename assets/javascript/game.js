@@ -113,11 +113,12 @@ function renderenemy(selectedCharacterKey) {
     }
   }
 }
+$("#sel4").css("display", "none");
 $(document).ready(function () {
   $("#gods").on("click", ".character", function () {
     var selectedKey = $(this).attr("data-name");
     greset.selectedCharacter = gods[selectedKey]
-
+ 
 
     $("#selected-god").append(this);
 
@@ -180,6 +181,8 @@ $(document).ready(function () {
         $("#new-game").show();
       } else {
         alert("Great !Select another enemy");
+        
+       
         enemyselect();
 
       }
