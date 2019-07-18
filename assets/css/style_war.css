@@ -10,6 +10,7 @@ body {
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1659), auto !important;
 }
 
+/* Backgroud image */
 #page2 {
 
     position: absolute;
@@ -19,11 +20,23 @@ body {
     margin: -163px 0 0 0px;
 }
 
+/* Logo */
+#logo {
+    font-size: 300%;
+    font-family: initial;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    color: rgb(230, 215, 18);
+    margin: 0 0 0 557px;
+}
+/* Gods */
 img {
     height: 100px;
     width: 150px;
 
 }
+/*  image Shake */
 
 .character:hover {
     animation: shake 0.9s;
@@ -75,6 +88,8 @@ img {
         transform: translate(1px, -2px) rotate(-1deg);
     }
 }
+
+/* Selected Charackters */
 .select {
     font-size: 200%;
     color: rgb(230, 215, 18);
@@ -92,7 +107,6 @@ img {
 }
 
 #sel3 {
-
     margin: 115px 0 0 601px;
 }
 
@@ -104,25 +118,8 @@ img {
     left: 1151px;
     font-size: 200%;
     color: rgb(230, 215, 18);
-
-
-}
-
-
-#enemy_fight{
-
-    margin: -26px 0 0 315px;
     display: none;
-}
 
-#logo {
-    font-size: 300%;
-    font-family: initial;
-    z-index: 1;
-    position: absolute;
-    text-align: center;
-    color: rgb(230, 215, 18);
-    margin: 0 0 0 557px;
 }
 
 .character {
@@ -145,10 +142,6 @@ img {
     margin: 0px -216px 0 -215px;
 }
 
-.enemy {
-    margin: -11px -201px 0 216px;
-}
-
 #selected-god {
     width: 198px;
     height: 172px;
@@ -157,33 +150,18 @@ img {
 }
 
 #gods {
-
     margin: 5px 0 0 65px;
-
 }
 
-#fightbtn {
-    margin: 106px 0 0 638px;
-    width: 203px;
-    border: solid rgb(230, 215, 18) 5px;
-    height: 57px;
-    font-size: xx-large;
-    color: rgb(230, 215, 18);
-    background-color: black;
-    font-family: auto;
+.enemy {
+    margin: -11px -201px 0 216px;
 }
 
-
-#new-game {
-
-    margin: 378px 0 0 638px;
-    width: 205px;
-    height: 107px;
-    border: solid rgb(230, 215, 18) 5px;
-    background-color: black;
-    color: rgb(230, 215, 18);
-    font-size: xx-large;
+#enemy_fight{
+    margin: -26px 0 0 315px;
+    display: none;
 }
+
 
 
 #Enemy {
@@ -196,10 +174,38 @@ img {
     text-align: center;
 }
 
+
+/* Backgroud Sounds */
 .bsound {
 
     display: none;
 }
+
+/* Fight Button */
+#fightbtn {
+    margin: 106px 0 0 638px;
+    width: 203px;
+    border: solid rgb(230, 215, 18) 5px;
+    height: 57px;
+    font-size: xx-large;
+    color: rgb(230, 215, 18);
+    background-color: black;
+    font-family: auto;
+}
+
+/* New Game Button */
+#new-game {
+
+    margin: 378px 0 0 638px;
+    width: 205px;
+    height: 107px;
+    border: solid rgb(230, 215, 18) 5px;
+    background-color: black;
+    color: rgb(230, 215, 18);
+    font-size: xx-large;
+}
+
+/* @media */
 
 @media screen and (max-width: 1440px) {
 

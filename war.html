@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/style_war.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style_war.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  
     <title>Mythology Of War</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Backgroud Image -->
-    <img id="page2" src="assets/images/giphy.gif" alt="">
+    <img id="page2" src="assets/images/giphy.gif" alt="" />
     <h1 id="logo">Mythology Of War</h1>
     <div id="Mythology Game">
-        <!-- God Select -->
 
-        <div id="select-area" data-toggle="tooltip">
-            <div id="sel" class="select">Select Your Character</div>
-            <div id="gods" > </div>
+      <!-- God Select -->
+
+      <div id="select-area" data-toggle="tooltip">
+        <div id="sel" class="select">Select Your Character</div>
+        <div id="gods"></div>
+      </div>
+
+      <!-- Selected God -->
+
+      <div id="selected-area">
+        <div id="sel2" class="select">Your Character</div>
+        <div id="selected-god"></div>
+      </div>
+
+      <div id="enemy_fight">
+        <div class="select">Enemys</div>
+      </div>
+
+      <!-- Fight Button -->
+
+      <button id="fightbtn" style="display: none;">Fight</button>
+
+      <div id="action">
+        <!-- Enemys Contaniar -->
+        <div class="Enemys">
+          
+          <!-- Fight Enemy -->
+          <!-- Selec Enemy -->
+          <div id="sel4">Enemy</div>
+          <div id="Enemy"></div>
         </div>
-
-        <!-- Selected God -->
-
-        <div id="selected-area">
-            <div id="sel2" class="select">Your Character</div>
-                <div id="selected-god"></div>
-        </div>
-
-
-        <div id="enemy_fight">
-            <div class="select">Enemys</div>
-        </div>
-
-        <!-- Fight Button -->
-
-            <button id="fightbtn" style="display: none;">Fight</button>
-        
-
-        <div id="action">
-            <!-- Enemys Contaniar -->
-            <div class="Enemys">
-               
-
-                    
-                <!-- Fight Enemy -->
-                <div id="sel4">Enemy</div>
-                <div id="Enemy"></div>
-                
-            </div>
-        </div>
-
+      </div>
     </div>
-                <!-- New Game Button -->
+    <!-- New Game Button -->
     <button id="new-game" style="display: none;">New Game</button>
-    
+
     <!-- Backgroud Sounds -->
 
-    <div class=bsound>
-        <iframe src="assets/sounds/war.mp3" allow="autoplay" id="audio" loop></iframe>
+    <div class="bsound">
+      <iframe
+        src="assets/sounds/war.mp3"
+        allow="autoplay"
+        id="audio"
+        loop
+      ></iframe>
     </div>
-    <div class=bsound>
-        <iframe src="assets/sounds/thunder.mp3" allow="autoplay" id="audio" loop></iframe>
+    <div class="bsound">
+      <iframe
+        src="assets/sounds/thunder.mp3"
+        allow="autoplay"
+        id="audio"
+        loop
+      ></iframe>
     </div>
 
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/javascript/game.js"></script>
-</body>
-
+  </body>
 </html>
