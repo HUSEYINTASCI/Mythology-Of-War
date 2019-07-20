@@ -54,7 +54,7 @@ function resetgods() {
     },
     Ares: {
       name: "ARES",
-      health: 13,
+      health: 130,
       fight: 11,
       imageUrl: "assets/images/ares.png",
       enemyfight: 3
