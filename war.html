@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/css/style_war.css" />
     <link
+    href="assets/images/icon.png"
+    rel="icon"
+    type="image/x-icon"
+  />
+    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
@@ -58,20 +63,10 @@
     <!-- Backgroud Sounds -->
 
     <div class="bsound">
-      <iframe
-        src="assets/sounds/war.mp3"
-        allow="autoplay"
-        id="audio"
-        loop="true"
-      ></iframe>
+      
     </div>
     <div class="bsound">
-      <iframe
-        src="assets/sounds/thunder.mp3"
-        allow="autoplay"
-        id="audio"
-        loop="true"
-      ></iframe>
+      
     </div>
 
     <script
@@ -80,5 +75,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="assets/javascript/game.js"></script>
+    <script>
+      var by = new Audio('assets/sounds/thunder.mp3');
+      var bx = new Audio('assets/sounds/war.mp3');
+ by.play();
+ bx.play();
+     </script>
   </body>
 </html>
