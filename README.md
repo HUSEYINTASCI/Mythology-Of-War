@@ -13,8 +13,8 @@ Link: https://huseyintasci.github.io/Mythology-Of-War/
 
 
 Page
-![alt text](https://github.com/HUSEYINTASCI/Jarvis/blob/master/assets/images/1.gif)
+![alt text](https://github.com/HUSEYINTASCI/Mythology-Of-War/blob/master/assets/images/1.gif)
 
 
 War Page
-![alt text](https://github.com/HUSEYINTASCI/Jarvis/blob/master/assets/images/2.gif)
+![alt text](https://github.com/HUSEYINTASCI/Mythology-Of-War/blob/master/assets/images/2.gif)
